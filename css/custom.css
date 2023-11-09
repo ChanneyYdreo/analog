@@ -4,6 +4,13 @@ header{
     color: white;
 }
 
-.color-overley{
+.color-overlay{
     background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+@media (max-width:768px){
+ .color-overlay{
+    min-height: 30vh;
+ }
 }
